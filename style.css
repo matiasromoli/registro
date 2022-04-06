@@ -21,6 +21,14 @@ body {
 
 }
 
+section {
+
+justify-content: center;
+align-items:center;
+display:flex;
+
+}
+
 .form {
 
   box-shadow: 0 2px 15px -2px rgba(0, 0, 0, 0.650);
