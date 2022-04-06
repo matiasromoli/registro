@@ -2,9 +2,9 @@ const $ = (selector) => document.getElementById(selector);
 const $$ = (selector) => document.querySelector(selector);
 const $A = (selector) => document.querySelectorAll(selector);
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.form.addEventListener("submit", validarFormulario);
-});
+
+document.form.addEventListener("submit", validarFormulario);
+
 
 function mensajeError(input, mensaje) {
   const elements = $$(`.${input}`);
